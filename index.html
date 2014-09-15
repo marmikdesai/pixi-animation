@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1">
+<title>Animation | Marmik</title>
+<style>
+	*{
+		box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+	}
+	html, body{
+		height:100%;
+	}
+	body, h2{
+		margin:0px;
+		padding:0px;
+		font-weight:400;
+	}
+	.canvas_wrap{
+		width:100%;
+		float:left;
+		background: #f2f2f2;
+		border-top: 1px solid #e4e4e4;
+		text-align:center;
+		font-family: arial,sans-serif;
+		font-size:24px;
+	}
+	#canvas-holder{
+		width:100%;
+	}
+</style>
+</head>
+<body>
+	<div class="canvas_wrap">
+		<div id="canvas-holder"></div>
+	</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/pixi.js/1.6.1/pixi.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
