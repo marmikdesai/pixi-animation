@@ -16,18 +16,18 @@
     document.getElementById("canvas-holder").appendChild(_renderer.view);
 
     //Constants - 
-    var POINT_SPACING = 44;
+    var POINT_SPACING = 100;
     var MAIN_ROTATION = 0;
 
     var LINE_COLOUR = 0x2837A7;
-    var LINE_WIDTH = 2;
+    var LINE_WIDTH = 1;
     var LINE_ALPHA = 0.75;
 
     var ROWS = Math.ceil(5000 / POINT_SPACING);
     var COLS = Math.ceil(5000 / POINT_SPACING);
 
     var DISTANCE_THRESHOLD = 100;
-    var SPEED_DIVISOR = 10;
+    var SPEED_DIVISOR = 40;
     var FRICTION = 1;
 
     var _mouseIsDown = false;
